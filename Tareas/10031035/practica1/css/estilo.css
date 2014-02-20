@@ -1,0 +1,99 @@
+/*
+body{
+	/* 
+	font-size: 12px;
+}
+/*
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allura'), local('Allura-Regular'), url(Fonts/ExiT4hKozv4E-LiOi2vvJA.woff) format('woff');
+}
+
+h1{font-family: 'Allura', cursive;}
+
+h2 { font-family: 'Russo One', sans-serif;}
+
+.container { font-family: 'Gabriela', serif;}
+#titulo1{
+		color:#333300;
+#titulo1{
+		color:#333300;
+
+*/
+body{
+font:16px/26px Helvetica;
+line-height: 1.4;
+}
+.container{
+	width: 90%;
+	margin:0 5%;
+}
+.header-container{
+	border-bottom: 20px solid #e44d26;
+}
+.footer-container,
+.main aside{
+	border-top: 20px solid #e44d26;
+}
+.header-container, .footer-container, .main aside {
+	background: #f16529;
+}
+.title{
+color: white;}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 0;
+	
+	text-align: center;
+	text-decoration: none;
+	font-weight: blod;
+	
+	color: white;
+	background: #e44d26;
+	
+}
+
+nav a:hover, nav a:visited{
+	color: white;
+	}
+	
+nav a:hover{
+	text-decoration: underline;
+	}
+
+.main {
+	padding: 30px 0;
+}
+
+.main article h1 {
+	font-size: 2em;
+}
+.main aside {
+	color: white;
+	padding: 0px 5% 10px;
+}
+.footer-container footer{
+ color: white;
+ padding: 20px 0;
+ }
+ 
+ .clear:before, .clear:after{
+  content: " ";
+  display: table;
+ }
+ .clear:after{
+     clear: both;
+}
+
+	
+
+
