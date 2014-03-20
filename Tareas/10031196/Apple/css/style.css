@@ -1,0 +1,34 @@
+﻿@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url(../fonts/poiretone.woff) format('woff');
+}
+
+
+#maindiv{
+	background-image:url("../images/your_verse_hero.jpg");
+	background-position:50% 100%;
+	}
+#bar{
+	margin-top:1em;
+}
+.hero p{
+font-family:'Poiret One';
+color:white;
+}
+.hero #tittle{
+	margin-top:1em;
+}
+.hero #bot{
+	margin-bottom:7.5em;
+}
+.buttonbar{
+	background-color:black;
+}
+aside{
+  margin-left:7.5em;
+}
+.botimages{
+	width:327px;
+}
