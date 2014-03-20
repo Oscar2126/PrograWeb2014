@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+	    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Aprendiendo a usar Boostrap</title>
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	</head>
+
+	<body>
+	<div class="container" style="margin-top:2em;">
+			    <div class="row ">
+			    <div class="col-md-12 text-center"><!-- Botón normal -->
+						<button type="button" class="btn btn-default">Normal</button>
+						 
+						<!-- Muestra el botón de forma destacada para descubrir fácilmente
+						     el botón principal dentro de un grupo de botones -->
+						<button type="button" class="btn btn-primary">Destacado</button>
+						 
+						<!-- Indica una acción exitosa o positiva -->
+						<button type="button" class="btn btn-success">Éxito</button>
+						 
+						<!-- Botón pensado para los mensajes con alertas informativas -->
+						<button type="button" class="btn btn-info">Información</button>
+						 
+						<!-- Indica que hay que tener cuidado con la acción asociada al botón -->
+						<button type="button" class="btn btn-warning">Advertencia</button>
+						 
+						<!-- Indica una acción negativa o potencialmente peligrosa -->
+						<button type="button" class="btn btn-danger">Peligro</button>
+						 
+						<!-- Resta importancia al botón haciéndolo parecer un simple enlace,
+						     aunque conserva tu comportamiento original de botón -->
+						<button type="button" class="btn btn-link">Enlace</button><hr></div>
+</div>
+			    <div class="row">
+		    	<div class="col-lg-12">
+		    		<div class="row">	
+		    			<div class="col-md-2 ">
+		    	            <h1>h1. Bootstrap heading</h1>
+							<h2>h2. Bootstrap heading</h2>
+							<h3>h3. Bootstrap heading</h3>
+							<h4>h4. Bootstrap heading</h4>
+							<h5>h5. Bootstrap heading</h5>
+							<h6>h6. Bootstrap heading</h6> <hr>
+							
+							<ul>
+ 							 	<li>Lorem ipsum dolor sit amet</li>
+  								<li>Consectetur adipiscing elit</li>
+  								<li>Integer molestie lorem at massa</li>
+  								<li>Facilisis in pretium nisl aliquet</li>
+  								<li>Nulla volutpat aliquam velit
+   									<ul>
+      									<li>Phasellus iaculis neque</li>
+      									<li>Purus sodales ultricies</li>
+      									<li>Vestibulum laoreet porttitor sem</li>
+     									<li>Ac tristique libero volutpat at</li>
+    								</ul>
+  								</li>
+  								<li>Faucibus porta lacus fringilla vel</li>
+ 							 	<li>Aenean sit amet erat nunc</li>
+ 								<li>Eget porttitor lorem</li>
+							</ul>
+							    <p>
+								  <button type="button" class="btn btn-primary btn-lg">Botón grande</button>
+								  <button type="button" class="btn btn-default btn-lg">Botón grande</button>
+								</p>
+								<p>
+								  <button type="button" class="btn btn-primary">Botón normal</button>
+								  <button type="button" class="btn btn-default">Botón normal</button>
+								</p>
+								<p>
+								  <button type="button" class="btn btn-primary btn-sm">Botón pequeño</button>
+								  <button type="button" class="btn btn-default btn-sm">Botón pequeño</button>
+								</p>
+								<p>
+								  <button type="button" class="btn btn-primary btn-xs">Botón extra pequeño</button>
+								  <button type="button" class="btn btn-default btn-xs">Botón extra pequeño</button>
+								</p>
+ 
+		    			</div>
+		    			<div class="col-md-8">
+		    			<p>Texto Normal<br>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes,
+		    			 nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p> 
+                        <p class="lead">Texto destacado<br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. 
+                         Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non 
+                         metus auctor fringilla.</p>
+                         <blockquote>
+  								<p>Citar un texto<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+						 </blockquote>
+                         <p><small>Este contenido de texto se verá más pequeño y puede ser utilizado por ejemplo para "la letra pequeña" de la página.</small></p>
+                         <p>El siguiente trozo de texto <strong>se muestra en negrita</strong>.</p>
+                         <p>El siguiente trozo de texto <em>se muestra en cursiva</em>.</p>
+                         <p class="text-left">Texto alineado a la izquierda.</p>
+                         <p class="text-center">Texto centrado.</p>
+                         <p class="text-right">Texto alineado a la derecha.</p><hr>
+                         <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+						 <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+						 <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+						 <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+						 <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p><hr>						 
+						 <p>Este texto contiene abreviaturas como <abbr title="señor">Sr.</abbr> y <abbr title="señora">Sra.</abbr></p>
+						 <p>Esta página está escrita con <abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p><hr>
+						 <address>
+  						 	<strong>Empresa S.A.</strong><br>
+ 								 Avenida Principal 123<br>
+ 								 Ciudad, Provincia 00000<br>
+					  		  <abbr title="Phone">Tel:</abbr> 9XX 123 456
+						 </address>
+ 
+       					 <address>
+ 							 <strong>Nombre Apellido</strong><br>
+ 							 <a href="mailto:#">nombre.apellido@ejemplo.com</a>
+						 </address><hr>
+						
+						<dl>
+  							<dt>Description lists</dt>
+ 							<dd>A description list is perfect for defining terms.</dd>
+ 							<dt>Euismod</dt>
+  							<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+  							<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+  							<dt>Malesuada porta</dt>
+  							<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+						</dl><hr>
+						<dl class="dl-horizontal">
+  							<dt>Description lists</dt>
+  							<dd>A description list is perfect for defining terms.</dd>
+  							<dt>Euismod</dt>
+  							<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+  							<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+  							<dt>Malesuada porta</dt>
+  							<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+ 							<dt>Felis euismod semper eget lacinia</dt>
+  							<dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+						</dl><hr>
+						<p>El elemento <code>&lt;section&gt;</code> es uno de los nuevos elementos de HTML5.</p>
+						<pre>&lt;p&gt;Así se escribe un párrafo de texto&lt;/p&gt;</pre><hr>
+										<table class="table ">
+  											<thead>
+												    <tr>
+												      <th>#</th>
+												      <th>First Name</th>
+												      <th>Last Name</th>
+												      <th>Username</th>
+												    </tr>
+												  </thead>
+												  <tbody>
+												    <tr>
+												      <td>1</td>
+												      <td>Mark</td>
+												      <td>Otto</td>
+												      <td>@mdo</td>
+												    </tr>
+												    <tr>
+												      <td>2</td>
+												      <td>Jacob</td>
+												      <td>Thornton</td>
+												      <td>@fat</td>
+												    </tr>
+												    <tr>
+												      <td>3</td>
+												      <td>Larry</td>
+												      <td>the Bird</td>
+												      <td>@twitter</td>
+												    </tr>
+												  </tbody>
+										 </table>
+										 <table class="table table-striped">
+  											<thead>
+												    <tr>
+												      <th>#</th>
+												      <th>First Name</th>
+												      <th>Last Name</th>
+												      <th>Username</th>
+												    </tr>
+												  </thead>
+												  <tbody>
+												    <tr>
+												      <td>1</td>
+												      <td>Mark</td>
+												      <td>Otto</td>
+												      <td>@mdo</td>
+												    </tr>
+												    <tr>
+												      <td>2</td>
+												      <td>Jacob</td>
+												      <td>Thornton</td>
+												      <td>@fat</td>
+												    </tr>
+												    <tr>
+												      <td>3</td>
+												      <td>Larry</td>
+												      <td>the Bird</td>
+												      <td>@twitter</td>
+												    </tr>
+												  </tbody>
+										 </table>
+										 <table class="table table-bordered ">
+  											<thead>
+												    <tr>
+												      <th>#</th>
+												      <th>First Name</th>
+												      <th>Last Name</th>
+												      <th>Username</th>
+												    </tr>
+												  </thead>
+												  <tbody>
+												    <tr>
+												      <td>1</td>
+												      <td>Mark</td>
+												      <td>Otto</td>
+												      <td>@mdo</td>
+												    </tr>
+												    <tr>
+												      <td>2</td>
+												      <td>Jacob</td>
+												      <td>Thornton</td>
+												      <td>@fat</td>
+												    </tr>
+												    <tr>
+												      <td>3</td>
+												      <td>Larry</td>
+												      <td>the Bird</td>
+												      <td>@twitter</td>
+												    </tr>
+												  </tbody>
+										 </table>
+										 <div class="table-responsive">
+									    <table class="table">
+									      <thead>
+									        <tr>
+									          <th>#</th>
+									          <th>Cabecera de tabla</th>
+									          <th>Cabecera de tabla</th>
+									          <th>Cabecera de tabla</th>
+									          <th>Cabecera de tabla</th>
+									          <th>Cabecera de tabla</th>
+									          <th>Cabecera de tabla</th>
+									        </tr>
+									      </thead>
+									      <tbody>
+									        <tr>
+									          <td>1</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									        </tr>
+									        <tr>
+									          <td>2</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									        </tr>
+									        <tr>
+									          <td>3</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									          <td>Celda de tabla</td>
+									        </tr>
+									      </tbody>
+									    </table>
+									  </div>
+										 
+						 <img src="image/cuadro.png" class="img-rounded" alt="Imagen cuadrada a la que se han redondeado las esquinas">
+
+    					&nbsp;&nbsp;
+
+    					<img  src="image/cuadro.png" class="img-circle" alt="Imagen originalmente cuadrada, pero que se ha convertido en un círculo centrado en el centro del cuadrado original">
+
+    					&nbsp;&nbsp;
+
+   					    <img src="image/cuadro.png" class="img-thumbnail" alt="Imagen cuadrada con un efecto gráfico tipo cámara fotográfica instantánea">
+   					    
+   					    
+
+		    			</div>
+		    			<div class="col-md-2">
+		    			<ol>
+ 							 <li>Lorem ipsum dolor sit amet</li>
+							 <li>Consectetur adipiscing elit</li>
+  							 <li>Integer molestie lorem at massa</li>
+ 							 <li>Facilisis in pretium nisl aliquet</li>
+							 <li>Nulla volutpat aliquam velit</li>
+						     <li>Faucibus porta lacus fringilla vel</li>
+ 							 <li>Aenean sit amet erat nunc</li>
+ 							 <li>Eget porttitor lorem</li>
+						</ol><hr>
+						
+						<form role="form">
+							  <div class="form-group">
+							    <label for="ejemplo_email_1">Email</label>
+							    <input type="email" class="form-control" id="ejemplo_email_1"
+							           placeholder="Introduce tu email">
+							  </div>
+							  <div class="form-group">
+							    <label for="ejemplo_password_1">Contraseña</label>
+							    <input type="password" class="form-control" id="ejemplo_password_1" 
+							           placeholder="Contraseña">
+							  </div>
+							  <div class="form-group">
+							    <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+							    <input type="file" id="ejemplo_archivo_1">
+							    <p class="help-block">Ejemplo de texto de ayuda.</p>
+							  </div>
+							  <div class="checkbox">
+							    <label>
+							      <input type="checkbox"> Activa esta casilla
+							    </label>
+							  </div>
+							  
+							  <select class="form-control">
+									  <option>1</option>
+									  <option>2</option>
+									  <option>3</option>
+									  <option>4</option>
+									  <option>5</option>
+									</select><br>
+									 
+							 <button type="submit" class="btn btn-default">Enviar</button>
+							
+							</form><hr>
+							
+							<div class="checkbox">
+								  <label>
+								    <input type="checkbox" value="">
+								    Esta es una opción muy interesante que tienes que pinchar
+								  </label>
+								</div>
+								 
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>
+								    Esta es una opción muy interesante que tienes que pinchar
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+								    Esta otra opción también es muy interesante y al pincharla, deseleccionas la opción anterior
+								  </label>
+							</div>
+															
+						</div>
+		    		</div>
+		    	</div>
+		    </div>
+		    </div>
+			<div class="row">
+			<div class="col-md-12" style="border: 1px solid #AAA;"><p>Bar NAV</p></div>
+			<div class="col-md-2"style="border: 1px solid #AAA;">
+				<div class="row">
+					<div class="col-md-12" style="border: 1px solid #AAA;"><p>opcion1</p></div>
+					<div class="col-md-12" style="border: 1px solid #AAA;"><p>opcion2</p></div>
+					<div class="col-md-12" style="border: 1px solid #AAA;"><p>opcion3</p></div>
+					<div class="col-md-12" style="border: 1px solid #AAA;"><p>opcion4</p></div>
+					<div class="col-md-12" style="border: 1px solid #AAA;"><p>opcion5</p></div>
+				</div>
+			</div>
+			<div class="col-md-2"style="border: 1px solid #AAA;">Contenido 1</div>
+			<div class="col-md-8"style="border: 1px solid #AAA;">
+				<div class="col-md-12" style="border: 1px solid #AAA;">col-md-12</div>
+				<div class="col-md-6" style="border: 1px solid #AAA;">col-md-6</div>
+				<div class="col-md-6" style="border: 1px solid #AAA;">col-md-6</div>
+				<div class="col-md-4" style="border: 1px solid #AAA;">col-md-4</div>
+				<div class="col-md-4" style="border: 1px solid #AAA;">col-md-4</div>
+				<div class="col-md-4" style="border: 1px solid #AAA;">col-md-4</div>
+
+			</div>
+			</div>
+	
+	</body>
+
+</html>
