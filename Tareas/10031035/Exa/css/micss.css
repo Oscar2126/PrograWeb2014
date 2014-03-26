@@ -1,0 +1,30 @@
+.color1{
+	background-color: #82FA58;
+}
+
+.color2{
+	background-color: #FE642E;
+}
+
+.color3{
+	background-color: #04B4AE;
+}
+
+.color4{
+	background-color: #E2A9F3;
+}
+
+.color5{
+	background-color: #F7819F;
+}
+
+.color6{
+	background-color: #819FF7;
+}
+
+#caracol
+{
+position:absolute;
+left:360px;
+top:500px;
+}
